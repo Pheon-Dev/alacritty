@@ -1,0 +1,159 @@
+env:
+  TERM: xterm-256color
+
+window:
+  padding:
+    x: 0
+    y: 0
+
+  dynamic_padding: false
+  title: Alacritty
+
+  class:
+    instance: Alacritty
+    general: Alacritty
+
+scrolling:
+  history: 5000
+
+font:
+  normal:
+    family: MesloLGS NF
+    style: Bold
+
+  bold:
+    family: Courier New
+    style: Bold
+
+  italic:
+    family: Courier New
+    style: Italic
+
+  bold_italic:
+    family: Courier New 
+    style: Bold Italic
+
+  size: 09.0
+
+  offset:
+    x: 0
+    y: 0
+
+draw_bold_text_with_bright_colors: true
+
+#######################################
+##      START OF COLOR SCHEMES       ##
+#######################################
+schemes:
+  ### Solarized Dark ###
+  SolarizedDark:
+    # Default colors
+    &SolarizedDark
+    primary:
+      background: '#000000' # base03
+      foreground: '#969696' # base0
+
+    # Cursor colors
+    cursor:
+      text: '#000000' # base03
+      cursor: '#839496' # base0
+
+    # Normal colors
+    normal:
+      black: '#073642' # base02
+      red: '#dc322f' # red
+      green: '#859900' # green
+      yellow: '#b58900' # yellow
+      blue: '#239496' # blue
+      magenta: '#933682' # magenta
+      cyan: '#2aa198' # cyan
+      white: '#eee8d5' # base2
+
+    # Bright colors
+    bright:
+      black: '#002b36' # base03
+      red: '#cb4b16' # orange
+      green: '#586e75' # base01
+      yellow: '#657b83' # base00 657b83
+      blue: '#268bd2' # base0
+      magenta: '#6c71c4' # violet
+      cyan: '#93a1a1' # base1
+      white: '#fdf6e3' # base3
+
+  purify:
+    # Selection colors
+    &purify
+    selection:
+      text: '0xFAFAFA'
+      background: '0x252834'
+
+    # Normal colors
+    primary:
+      #  background: '0x313441'
+      foreground: '0xFAFAFA'
+    normal:
+      black: '0x282C34'
+      red: '0xFF6059'
+      green: '0x5FFF87'
+      yellow: '0xFFFF87'
+      blue: '0x5FAFFF'
+      magenta: '0xAF87FF'
+      cyan: '0x5FAFFF'
+      white: '0xFAFAFA'
+
+    # Bright colors
+    bright:
+      black: '0x282C34'
+      red: '0xFF6059'
+      green: '0x5FFF87'
+      yellow: '0xFFFF87'
+      blue: '0x5FAFFF'
+      magenta: '0xAF87FF'
+      cyan: '0x5FAFFF'
+      white: '0xFAFAFA'
+
+######################################################################
+## SET THEME: Choose ONE color scheme from those in the above list. ##
+## ###################################################################
+colors: *SolarizedDark
+# colors: *purify
+
+key_bindings:
+  # (Windows, Linux, and BSD only)
+  - { key: V, mods: Control|Shift, action: Paste }
+  - { key: C, mods: Control|Shift, action: Copy }
+  - { key: Insert, mods: Shift, action: PasteSelection }
+  - { key: Key0, mods: Control, action: ResetFontSize }
+  - { key: Equals, mods: Control, action: IncreaseFontSize }
+  - { key: Plus, mods: Control, action: IncreaseFontSize }
+  - { key: Minus, mods: Control, action: DecreaseFontSize }
+  - { key: F11, mods: None, action: ToggleFullscreen }
+  - { key: Paste, mods: None, action: Paste }
+  - { key: Copy, mods: None, action: Copy }
+  - { key: L, mods: Control, action: ClearLogNotice }
+  - { key: L, mods: Control, chars: "\f" }
+  - {
+      key: PageUp,
+      mods: None,
+      action: ScrollPageUp,
+      mode: ~Alt
+    }
+  - {
+      key: PageDown,
+      mods: None,
+      action: ScrollPageDown,
+      mode: ~Alt
+    }
+  - {
+      key: Home,
+      mods: Shift,
+      action: ScrollToTop,
+      mode: ~Alt
+    }
+  - {
+      key: End,
+      mods: Shift,
+      action: ScrollToBottom,
+      mode: ~Alt
+    }
+theme: 3024.dark
