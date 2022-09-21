@@ -50,7 +50,7 @@ schemes:
     # Default colors
     &TokyoNight
     primary:
-      background: '#000000' # base03
+      background: '0x363636'
       foreground: '#c0caf5' # base0
 
     # Cursor colors
@@ -123,7 +123,7 @@ schemes:
 
     # Normal colors
     primary:
-      #  background: '0x313441'
+      background: '0x363636'
       foreground: '0xFAFAFA'
     normal:
       black: '0x282C34'
@@ -146,10 +146,92 @@ schemes:
       cyan: '0x5FAFFF'
       white: '0xFAFAFA'
 
+  Tokyo:
+    # Default colors
+    &Tokyo
+    primary:
+      background: '#2e2e2e'
+      foreground: '#c0caf5'
+
+    # Normal colors
+    normal:
+      black:   '#24283b'
+      red:     '#f7768e'
+      green:   '#9ece6a'
+      yellow:  '#e0af68'
+      blue:    '#7aa2f7'
+      magenta: '#bb9af7'
+      cyan:    '#7dcfff'
+      white:   '#ffffff'
+
+    # Bright colors
+    bright:
+      black:   '#414868'
+      red:     '#f7768e'
+      green:   '#9ece6a'
+      yellow:  '#e0af68'
+      blue:    '#7aa2f7'
+      magenta: '#bb9af7'
+      cyan:    '#7dcfff'
+      white:   '#ffffff'
+  ### Nord ###
+  Nord:
+    # Default colors
+    &Nord
+    primary:
+      background: '#24283b'
+      foreground: '#d8dee9'
+      dim_foreground: '#a5abb6'
+    cursor:
+      text: '#2e3440'
+      cursor: '#d8dee9'
+    vi_mode_cursor:
+      text: '#2e3440'
+      cursor: '#d8dee9'
+    selection:
+      text: CellForeground
+      background: '#4c566a'
+    search:
+      matches:
+        foreground: CellBackground
+        background: '#88c0d0'
+      bar:
+        background: '#434c5e'
+        foreground: '#d8dee9'
+    normal:
+      black: '#3b4252'
+      red: '#bf616a'
+      green: '#a3be8c'
+      yellow: '#ebcb8b'
+      blue: '#81a1c1'
+      magenta: '#b48ead'
+      cyan: '#88c0d0'
+      white: '#e5e9f0'
+    bright:
+      black: '#4c566a'
+      red: '#bf616a'
+      green: '#a3be8c'
+      yellow: '#ebcb8b'
+      blue: '#81a1c1'
+      magenta: '#b48ead'
+      cyan: '#8fbcbb'
+      white: '#eceff4'
+    dim:
+      black: '#373e4d'
+      red: '#94545d'
+      green: '#809575'
+      yellow: '#b29e75'
+      blue: '#68809a'
+      magenta: '#8c738c'
+      cyan: '#6d96a5'
+      white: '#aeb3bb'
+
 ######################################################################
 ## SET THEME: Choose ONE color scheme from those in the above list. ##
 ## ###################################################################
-colors: *TokyoNight
+# colors: *Nord
+# colors: *TokyoNight
+colors: *Tokyo
 # colors: *SolarizedDark
 # colors: *purify
 
