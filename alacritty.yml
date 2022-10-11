@@ -150,7 +150,7 @@ schemes:
     # Default colors
     &Tokyo
     primary:
-      background: "#2e2e2e"
+      background: "#303030"
       foreground: "#c0caf5"
 
     # Normal colors
