@@ -19,21 +19,21 @@ scrolling:
 font:
   normal:
     family: MesloLGS NF
-    style: Bold
+    style: Regular
 
   bold:
-    family: Courier New
+    family: MesloLGS NF
     style: Bold
 
   italic:
-    family: Courier New
+    family: MesloLGS NF
     style: Italic
 
   bold_italic:
-    family: Courier New
+    family: MesloLGS NF
     style: Bold Italic
 
-  size: 08.0
+  size: 07.8
 
   offset:
     x: 0
@@ -50,35 +50,34 @@ schemes:
     # Default colors
     &TokyoNight
     primary:
-      background: "0x363636"
-      foreground: "#c0caf5" # base0
-
-    # Cursor colors
-    cursor:
-      text: "#000000" # base03
-      cursor: "#a9b1d6" # base0
+      background: "#303030"
+      foreground: "#c0caf5"
 
     # Normal colors
     normal:
-      black: "#073642" # base02
-      red: "#f7768e" # red
-      green: "#9ece6a" # green
-      yellow: "#ffd000" # yellow
-      blue: "#7aa2f7" # blue
-      magenta: "#bb9af7" # magenta
-      cyan: "#7dcfff" # cyan
-      white: "#a9b1d6" # base2
+      black: "#1d202f"
+      red: "#f7768e"
+      green: "#9ece6a"
+      yellow: "#e0af68"
+      blue: "#7aa2f7"
+      magenta: "#bb9af7"
+      cyan: "#7dcfff"
+      white: "#a9b1d6"
 
     # Bright colors
     bright:
-      black: "#002b36" # base03
-      red: "#ff102b" # orange
-      green: "#9ece6a" # base01
-      yellow: "#ffff0f" # base00 657b83
-      blue: "#268bd2" # base0
-      magenta: "#9d7cd8" # violet
-      cyan: "#89ddff" # base1
-      white: "#ffffff" # base3
+      black: "#414868"
+      red: "#f7768e"
+      green: "#9ece6a"
+      yellow: "#e0af68"
+      blue: "#7aa2f7"
+      magenta: "#bb9af7"
+      cyan: "#7dcfff"
+      white: "#c0caf5"
+
+    indexed_colors:
+      - { index: 16, color: "#ff9e64" }
+      - { index: 17, color: "#db4b4b" }
 
   SolarizedDark:
     # Default colors
@@ -118,33 +117,33 @@ schemes:
     # Selection colors
     &purify
     selection:
-      text: "0xFAFAFA"
-      background: "0x252834"
+      text: "#FAFAFA"
+      background: "#252834"
 
     # Normal colors
     primary:
-      background: "0x363636"
-      foreground: "0xFAFAFA"
+      background: "#303030"
+      foreground: "#FAFAFA"
     normal:
-      black: "0x282C34"
-      red: "0xFF6059"
-      green: "0x5FFF87"
-      yellow: "0xFFFF87"
-      blue: "0x5FAFFF"
-      magenta: "0xAF87FF"
-      cyan: "0x5FAFFF"
-      white: "0xFAFAFA"
+      black: "#282C34"
+      red: "#FF6059"
+      green: "#5FFF87"
+      yellow: "#FFFF87"
+      blue: "#5FAFFF"
+      magenta: "#AF87FF"
+      cyan: "#5FAFFF"
+      white: "#FAFAFA"
 
     # Bright colors
     bright:
-      black: "0x282C34"
-      red: "0xFF6059"
-      green: "0x5FFF87"
-      yellow: "0xFFFF87"
-      blue: "0x5FAFFF"
-      magenta: "0xAF87FF"
-      cyan: "0x5FAFFF"
-      white: "0xFAFAFA"
+      black: "#282C34"
+      red: "#FF6059"
+      green: "#5FFF87"
+      yellow: "#FFFF87"
+      blue: "#5FAFFF"
+      magenta: "#AF87FF"
+      cyan: "#5FAFFF"
+      white: "#FAFAFA"
 
   Tokyo:
     # Default colors
@@ -179,7 +178,7 @@ schemes:
     # Default colors
     &Nord
     primary:
-      background: "#24283b"
+      background: "#303030"
       foreground: "#d8dee9"
       dim_foreground: "#a5abb6"
     cursor:
