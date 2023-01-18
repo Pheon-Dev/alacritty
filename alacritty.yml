@@ -1,69 +1,53 @@
 env:
   TERM: xterm-256color
-
 window:
   padding:
-    x: 0
-    y: 0
-
+    x: 2
+    y: 2
   dynamic_padding: false
   title: Alacritty
-
   class:
     instance: Alacritty
     general: Alacritty
-
 scrolling:
   history: 5000
-
 font:
   normal:
-    family: MesloLGS NF
-    style: Regular
-
-  bold:
-    family: MesloLGS NF
+    family: ComicMonoNF
     style: Bold
-
+  bold:
+    family: ComicMonoNF
+    style: Bold
   italic:
-    family: MesloLGS NF
+    family: ComicMonoNF
     style: Italic
-
   bold_italic:
-    family: MesloLGS NF
+    family: ComicMonoNF
     style: Bold Italic
-
-  size: 07.8
-
+  size: 08.4
   offset:
-    x: 0
-    y: 0
-
+    x: 1
+    y: 1
 draw_bold_text_with_bright_colors: true
-
 #######################################
 ##      START OF COLOR SCHEMES       ##
 #######################################
 schemes:
   ### Solarized Dark ###
-  TokyoNight:
-    # Default colors
-    &TokyoNight
-    primary:
-      background: "#303030"
+  TokyoNight: &TokyoNight
+    primary: # Default colors
+      background: "#21222c"
       foreground: "#c0caf5"
-
     # Normal colors
     normal:
-      black: "#1d202f"
+      black: "#414868"
       red: "#f7768e"
       green: "#9ece6a"
       yellow: "#e0af68"
-      blue: "#7aa2f7"
+      blue: "#6790eb"
       magenta: "#bb9af7"
       cyan: "#7dcfff"
-      white: "#a9b1d6"
-
+      white: "#c0caf5"
     # Bright colors
     bright:
       black: "#414868"
@@ -74,14 +58,10 @@ schemes:
       magenta: "#bb9af7"
       cyan: "#7dcfff"
       white: "#c0caf5"
-
-  Tokyo:
-    # Default colors
-    &Tokyo
-    primary:
+  Tokyo: &Tokyo
+    primary: # Default colors
       background: "#303030"
       foreground: "#c0caf5"
-
     # Normal colors
     normal:
       black: "#363636"
@@ -92,14 +72,11 @@ schemes:
       magenta: "#bb9af7"
       cyan: "#7dcfff"
       white: "#c0caf5"
-
-
 ######################################################################
 ## SET THEME: Choose ONE color scheme from those in the above list. ##
 ## ###################################################################
-colors: *Tokyo
-# colors: *TokyoNight
-
+# colors: *Tokyo
+colors: *TokyoNight
 key_bindings:
   # (Windows, Linux, and BSD only)
   - { key: V, mods: Control|Shift, action: Paste }
