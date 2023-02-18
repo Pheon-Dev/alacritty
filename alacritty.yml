@@ -1,10 +1,11 @@
+---
 env:
   TERM: xterm-256color
 window:
   padding:
     x: 2
     y: 2
-  dynamic_padding: false
+  dynamic_padding: true
   title: Alacritty
   class:
     instance: Alacritty
@@ -14,7 +15,7 @@ scrolling:
 font:
   normal:
     family: ComicMonoNF
-    style: Bold
+    style: Regular
   bold:
     family: ComicMonoNF
     style: Bold
@@ -24,7 +25,7 @@ font:
   bold_italic:
     family: ComicMonoNF
     style: Bold Italic
-  size: 08.4
+  size: 08.0
   offset:
     x: 1
     y: 1
@@ -41,9 +42,9 @@ schemes:
     # Normal colors
     normal:
       black: "#414868"
-      red: "#f7768e"
-      green: "#9ece6a"
-      yellow: "#e0af68"
+      red: "#ff5555"
+      green: "#50fa7b"
+      yellow: "#f1fa8c"
       blue: "#6790eb"
       magenta: "#bb9af7"
       cyan: "#7dcfff"
@@ -51,9 +52,9 @@ schemes:
     # Bright colors
     bright:
       black: "#414868"
-      red: "#f7768e"
-      green: "#9ece6a"
-      yellow: "#e0af68"
+      red: "#ff5555"
+      green: "#50fa7b"
+      yellow: "#f1fa8c"
       blue: "#7aa2f7"
       magenta: "#bb9af7"
       cyan: "#7dcfff"
