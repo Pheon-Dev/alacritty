@@ -6,6 +6,7 @@ window:
     x: 2
     y: 2
   dynamic_padding: true
+  decorations: full
   title: Alacritty
   class:
     instance: Alacritty
@@ -15,7 +16,7 @@ scrolling:
 font:
   normal:
     family: ComicMonoNF
-    style: Regular
+    style: Bold
   bold:
     family: ComicMonoNF
     style: Bold
@@ -29,7 +30,9 @@ font:
   offset:
     x: 1
     y: 1
+
 draw_bold_text_with_bright_colors: true
+
 #######################################
 ##      START OF COLOR SCHEMES       ##
 #######################################
@@ -73,11 +76,13 @@ schemes:
       magenta: "#bb9af7"
       cyan: "#7dcfff"
       white: "#c0caf5"
+
 ######################################################################
 ## SET THEME: Choose ONE color scheme from those in the above list. ##
 ## ###################################################################
 # colors: *Tokyo
 colors: *TokyoNight
+
 key_bindings:
   # (Windows, Linux, and BSD only)
   - { key: V, mods: Control|Shift, action: Paste }
