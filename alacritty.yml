@@ -3,8 +3,8 @@ env:
   TERM: xterm-256color
 window:
   padding:
-    x: 2
-    y: 2
+    x: 0
+    y: 0
   dynamic_padding: true
   decorations: full
   title: Alacritty
@@ -29,9 +29,12 @@ font:
   size: 08.0
   offset:
     x: 1
-    y: 1
+    y: 0
 
 draw_bold_text_with_bright_colors: true
+
+mouse:
+    hide_when_typing: true
 
 #######################################
 ##      START OF COLOR SCHEMES       ##
@@ -96,7 +99,7 @@ key_bindings:
   - { key: Paste, mods: None, action: Paste }
   - { key: Copy, mods: None, action: Copy }
   - { key: L, mods: Control, action: ClearLogNotice }
-  - { key: L, mods: Control, chars: "\f" }
+  - { key: L, mods: Control, chars: "\f Enter" }
   - { key: PageUp, mods: None, action: ScrollPageUp, mode: ~Alt }
   - { key: PageDown, mods: None, action: ScrollPageDown, mode: ~Alt }
   - { key: Home, mods: Shift, action: ScrollToTop, mode: ~Alt }
