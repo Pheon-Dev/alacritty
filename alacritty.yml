@@ -109,5 +109,6 @@ key_bindings:
   - { key: Home, mods: Shift, action: ScrollToTop, mode: ~Alt }
   - { key: End, mods: Shift, action: ScrollToBottom, mode: ~Alt }
   - { key: L, mods: Control, chars: "\f" }
+  - { key: K, mods: Control, chars: "\n" }
   - { key: J, mods: Control, chars: "\fv\n" }
 theme: 3024.dark
