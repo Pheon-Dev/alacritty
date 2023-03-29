@@ -110,10 +110,11 @@ key_bindings:
   - { key: End, mods: Shift, action: ScrollToBottom, mode: ~Alt }
   - { key: L, mods: Control, chars: "\f" }
   - { key: Space, mods: Control, chars: "\n" }
+  - { key: I, mods: Control, chars: "\fjs\n" }
   - { key: K, mods: Control, chars: "\fl\n" }
   - { key: J, mods: Control, chars: "\fv\n" }
-  - { key: V, mods: Control, chars: "\fjs\n" }
   - { key: Z, mods: Control, chars: "\fzz\n" }
   - { key: F, mods: Control, chars: "\ff\n" }
   - { key: W, mods: Control, chars: "\fww\n" }
+  - { key: M, mods: Control, chars: "\fcd\n" }
 theme: 3024.dark
