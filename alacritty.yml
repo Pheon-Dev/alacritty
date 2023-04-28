@@ -114,7 +114,7 @@ key_bindings:
   - { key: K, mods: Control, chars: "\fl\n" }
   - { key: J, mods: Control, chars: "\fv\n" }
   - { key: Z, mods: Control, chars: "\fzz\n" }
-  - { key: F, mods: Control, chars: "\ff\n" }
+  - { key: F, mods: Control, chars: "\ff\n\f" }
   - { key: W, mods: Control, chars: "\fww\n" }
-  - { key: M, mods: Control, chars: "\fcd\n" }
+  - { key: M, mods: Control, chars: "\fcd\n\f" }
 theme: 3024.dark
