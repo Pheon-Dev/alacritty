@@ -111,6 +111,7 @@ key_bindings:
   - { key: L, mods: Control, chars: "\f" }
   - { key: Space, mods: Control, chars: "\n" }
   - { key: I, mods: Control, chars: "\fjs\n" }
+  - { key: G, mods: Control, chars: "\flg\n" }
   - { key: K, mods: Control, chars: "\fl\n" }
   - { key: J, mods: Control, chars: "\fv\n" }
   - { key: Z, mods: Control, chars: "\fzz\n" }
