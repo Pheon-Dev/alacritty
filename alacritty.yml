@@ -95,6 +95,7 @@ key_bindings:
   - { key: V, mods: Control|Shift, action: Paste }
   - { key: C, mods: Control|Shift, action: Copy }
   - { key: N, mods: Control|Shift, action: CreateNewWindow }
+  - { key: Return, mods: Alt, action: CreateNewWindow }
   - { key: Insert, mods: Shift, action: PasteSelection }
   - { key: Key0, mods: Control, action: ResetFontSize }
   - { key: Equals, mods: Control, action: IncreaseFontSize }
@@ -108,14 +109,13 @@ key_bindings:
   - { key: PageDown, mods: None, action: ScrollPageDown, mode: ~Alt }
   - { key: Home, mods: Shift, action: ScrollToTop, mode: ~Alt }
   - { key: End, mods: Shift, action: ScrollToBottom, mode: ~Alt }
-  - { key: L, mods: Control, chars: "\f" }
-  - { key: Space, mods: Control, chars: "\n" }
-  - { key: I, mods: Control, chars: "\fjs\n" }
-  - { key: G, mods: Control, chars: "\flg\n" }
-  - { key: K, mods: Control, chars: "\fl\n" }
-  - { key: J, mods: Control, chars: "\fv\n" }
-  - { key: Z, mods: Control, chars: "\fzz\n" }
-  - { key: F, mods: Control, chars: "\ff\n\f" }
-  - { key: W, mods: Control, chars: "\fww\n" }
-  - { key: M, mods: Control, chars: "\fcd\n\f" }
+  - { key: L, mods: Control, chars: '\f' }
+  - { key: Space, mods: Control, chars: '\n' }
+  - { key: G, mods: Control, chars: '\flg\n' }
+  - { key: K, mods: Control, chars: '\fl\n' }
+  - { key: J, mods: Control, chars: '\fv\n' }
+  - { key: Z, mods: Control, chars: '\fzz\n' }
+  - { key: F, mods: Control, chars: '\ff\n\f' }
+  - { key: W, mods: Control, chars: '\fww\n' }
+  - { key: M, mods: Control, chars: '\fcd\n\f' }
 theme: 3024.dark
