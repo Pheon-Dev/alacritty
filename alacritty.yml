@@ -111,12 +111,11 @@ key_bindings:
   - { key: End, mods: Shift, action: ScrollToBottom, mode: ~Alt }
   - { key: L, mods: Control, chars: "\f" }
   - { key: Space, mods: Control, chars: "\n" }
-  - { key: F1, mods: None, chars: "\fv\n" }
-  - { key: F2, mods: None, chars: "\fl\n" }
-  - { key: F3, mods: None, chars: "\ffm\n" }
-  - { key: F4, mods: None, chars: "\fzz\n" }
-  - { key: F5, mods: None, chars: "\fww\n" }
-  - { key: F6, mods: None, chars: "\ff\n" }
-  - { key: F7, mods: None, chars: "\fcd\n\f" }
-  - { key: F8, mods: None, chars: "\flg\n" }
+  - { key: G, mods: Control, chars: "\flg\n" }
+  - { key: I, mods: Control, chars: "\fl\n" }
+  - { key: V, mods: Control, chars: "\fv\n" }
+  - { key: Z, mods: Control, chars: "\fzz\n" }
+  - { key: F, mods: Control, chars: "\ff\n\f" }
+  - { key: W, mods: Control, chars: "\fww\n" }
+  - { key: M, mods: Control, chars: "\fcd\n\f" }
 theme: 3024.dark
