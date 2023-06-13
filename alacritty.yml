@@ -26,7 +26,7 @@ font:
   bold_italic:
     family: ComicMonoNF
     style: Bold Italic
-  size: 08.0
+  size: 07.8
   offset:
     x: 1
     y: 0
@@ -111,7 +111,6 @@ key_bindings:
   - { key: End, mods: Shift, action: ScrollToBottom, mode: ~Alt }
   - { key: L, mods: Control, chars: "\f" }
   - { key: G, mods: Control, chars: "\flg\n" }
-  - { key: A, mods: Control, chars: "\fl\n" }
   - { key: I, mods: Control, chars: "\fv\n" }
   - { key: Z, mods: Control, chars: "\fzz\n" }
   - { key: F, mods: Control, chars: "\ff\n\f" }
