@@ -111,9 +111,9 @@ key_bindings:
   - { key: End, mods: Shift, action: ScrollToBottom, mode: ~Alt }
   - { key: L, mods: Control, chars: "\f" }
   - { key: G, mods: Control, chars: "\flg\n" }
+  - { key: Semicolon, mods: Control, chars: "\flf\n" }
   - { key: I, mods: Control, chars: "\fv\n" }
   - { key: Z, mods: Control, chars: "\fzz\n" }
   - { key: F, mods: Control, chars: "\ff\n\f" }
-  - { key: W, mods: Control, chars: "\fww\n" }
   - { key: W, mods: Control, chars: "\fww -b r\n" }
 theme: 3024.dark
