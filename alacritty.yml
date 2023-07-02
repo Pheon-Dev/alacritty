@@ -20,6 +20,7 @@ font:
     style: Regular
   bold:
     family: ComicMonoNF
+    # family: Iosevka Nerd Font
     style: Bold
   italic:
     family: Iosevka Nerd Font
@@ -114,7 +115,7 @@ key_bindings:
   - { key: Semicolon, mods: Control, chars: "\flf\n" }
   - { key: L, mods: Control, chars: "\f" }
   - { key: G, mods: Control, chars: "\flg\n" } # lazygit
-  - { key: I, mods: Control, chars: "\fvl\n" } # editor on remote listening
+  - { key: I, mods: Control, chars: "\fv\n" } # editor
   - { key: Z, mods: Control, chars: "\fzz\n" } # zellij
   - { key: F, mods: Control, chars: "\ff\n\f" } # flamingo
   - { key: W, mods: Control, chars: "\fww\n" } # internet connection
