@@ -114,8 +114,9 @@ key_bindings:
   - { key: End, mods: Shift, action: ScrollToBottom, mode: ~Alt }
   - { key: Semicolon, mods: Control, chars: "\flf\n" }
   - { key: L, mods: Control, chars: "\f" }
-  - { key: S, mods: Control|Shift, chars: "\fff\n" } # fd | fzf (~)
-  - { key: S, mods: Control, chars: "\fff -c\n" } # fd | fzf (cwd)
+  - { key: S, mods: Control|Shift, chars: "\fff -c\n" } # fd | fzf (cwd)
+  - { key: S, mods: Control, chars: "\fff -h\n" } # fd | fzf (~)
+  - { key: R, mods: Control, chars: "\fff -g\n" } # fd | fzf (rg)
   - { key: G, mods: Control, chars: "\flg\n" } # lazygit
   - { key: I, mods: Control, chars: "\fv\n" } # editor
   - { key: Z, mods: Control, chars: "\fzz\n" } # zellij
