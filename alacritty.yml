@@ -17,14 +17,16 @@ font:
   normal:
     family: ComicMonoNF
     # family: Iosevka Nerd Font
-    style: Regular
+    # style: Regular
+    style: Bold
   bold:
     family: ComicMonoNF
     # family: Iosevka Nerd Font
     style: Bold
   italic:
     family: Iosevka Nerd Font
-    style: Italic
+    # style: Italic
+    style: Bold Italic
   bold_italic:
     # family: ComicMonoNF
     family: Iosevka Nerd Font
