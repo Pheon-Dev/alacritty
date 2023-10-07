@@ -20,22 +20,26 @@ scrolling:
   history: 5000
 font:
   normal:
-    family: ComicMonoNF
     # family: "JetBrainsMono Nerd Font"
+    # family: ComicMonoNF
+    family: Maple Mono
     style: Regular
   bold:
-    family: ComicMonoNF
+    # family: ComicMonoNF
+    family: Maple Mono
     style: Bold
   italic:
-    family: Iosevka Nerd Font
+    # family: Iosevka Nerd Font
+    family: Maple Mono
     style: Italic
   bold_italic:
-    family: Iosevka Nerd Font
+    # family: Iosevka Nerd Font
+    family: Maple Mono
     style: Bold Italic
-  size: 10.0
+  size: 11.0
   offset:
-    x: 1
-    y: 0
+    x: 0
+    y: -2
 
   glyph_offset:
     x: 0
@@ -74,6 +78,7 @@ key_bindings:
   # - { key: W, mods: Control|Shift, chars: "\fww -b r\n" }
   - { key: I, mods: Control, chars: "\fv\n" } # editor
   - { key: Z, mods: Control, chars: "\fzz\n" } # zellij
+  # - { key: T, mods: Control, chars: "\ft\n" } # tmux
   # - { key: B, mods: Control, chars: "\fbr\n" } # broot
   # - { key: F, mods: Control|Shift, chars: "\ff\n" } # flamingo
   # - { key: W, mods: Control, chars: "\fww\n" } # internet connection
