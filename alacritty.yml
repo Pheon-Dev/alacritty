@@ -71,9 +71,9 @@ key_bindings:
   - { key: End, mods: Shift, action: ScrollToBottom, mode: ~Alt }
   - { key: Semicolon, mods: Control, chars: "\flf\n" }
   - { key: L, mods: Control, chars: "\f" }
-  - { key: S, mods: Control|Shift, chars: "\fff -c\n" } # fd | fzf (cd)
-  - { key: S, mods: Control, chars: "\fff -e\n" } # fd | fzf (nvim)
-  - { key: G, mods: Control|Shift, chars: "\fff -g\n" } # fd | fzf (rg)
+  - { key: S, mods: Control|Shift, chars: "\ff -c\n" } # fd | fzf (cd)
+  - { key: S, mods: Control, chars: "\ff -e\n" } # fd | fzf (nvim)
+  - { key: G, mods: Control|Shift, chars: "\ff -g\n" } # fd | fzf (rg)
   - { key: G, mods: Control, chars: "\flg\n" } # lazygit
   # - { key: W, mods: Control|Shift, chars: "\fww -b r\n" }
   - { key: I, mods: Control, chars: "\fv\n" } # editor
