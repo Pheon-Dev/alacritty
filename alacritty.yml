@@ -7,6 +7,7 @@ import:
 env:
   TERM: xterm-256color
 window:
+  opacity: 1.0
   padding:
     x: 0
     y: 0
@@ -22,6 +23,7 @@ font:
   normal:
     # family: "JetBrainsMono Nerd Font"
     # family: ComicMonoNF
+    # family: Iosevka Nerd Font
     family: Maple Mono
     style: Regular
   bold:
@@ -70,17 +72,17 @@ key_bindings:
   - { key: PageDown, mods: None, action: ScrollPageDown, mode: ~Alt }
   - { key: Home, mods: Shift, action: ScrollToTop, mode: ~Alt }
   - { key: End, mods: Shift, action: ScrollToBottom, mode: ~Alt }
-  - { key: Semicolon, mods: Control, chars: "\flf\n" }
   - { key: L, mods: Control, chars: "\f" }
-  - { key: S, mods: Control|Shift, chars: "\ff -c\n" } # fd | fzf (cd)
-  - { key: S, mods: Control, chars: "\ff -e\n" } # fd | fzf (nvim)
-  - { key: G, mods: Control|Shift, chars: "\ff -g\n" } # fd | fzf (rg)
-  - { key: G, mods: Control, chars: "\flg\n" } # lazygit
-  # - { key: W, mods: Control|Shift, chars: "\fww -b r\n" }
-  - { key: I, mods: Control, chars: "\fv\n" } # editor
-  - { key: Z, mods: Control, chars: "\fzz\n" } # zellij
-  # - { key: T, mods: Control, chars: "\ft\n" } # tmux
-  # - { key: B, mods: Control, chars: "\fbr\n" } # broot
-  # - { key: F, mods: Control|Shift, chars: "\ff\n" } # flamingo
-  # - { key: W, mods: Control, chars: "\fww\n" } # internet connection
+  - { key: Semicolon, mods: Control, chars: "\fkn\n" }
+#   - { key: S, mods: Control|Shift, chars: "\ff -c\n" } # fd | fzf (cd)
+#   - { key: S, mods: Control, chars: "\ff -e\n" } # fd | fzf (nvim)
+#   - { key: G, mods: Control|Shift, chars: "\ff -g\n" } # fd | fzf (rg)
+#   - { key: G, mods: Control, chars: "\flg\n" } # lazygit
+#   # - { key: W, mods: Control|Shift, chars: "\fww -b r\n" }
+#   - { key: W, mods: Control, chars: "\fv\n" } # editor
+#   - { key: Z, mods: Control, chars: "\fzz\n" } # zellij
+#   # - { key: T, mods: Control, chars: "\ft\n" } # tmux
+#   # - { key: B, mods: Control, chars: "\fbr\n" } # broot
+#   # - { key: F, mods: Control|Shift, chars: "\ff\n" } # flamingo
+#   # - { key: W, mods: Control, chars: "\fww\n" } # internet connection
 theme: 3024.dark
