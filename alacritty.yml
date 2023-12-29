@@ -66,8 +66,8 @@ key_bindings:
   - { key: PageDown, mods: None, action: ScrollPageDown, mode: ~Alt }
   - { key: Home, mods: Shift, action: ScrollToTop, mode: ~Alt }
   - { key: End, mods: Shift, action: ScrollToBottom, mode: ~Alt }
-  - { key: L, mods: Control, chars: "\f" }
   - { key: Semicolon, mods: Control, chars: "\fkn\n" }
+# - { key: L, mods: Control, chars: "\f" }
 #   - { key: S, mods: Control|Shift, chars: "\ff -c\n" } # fd | fzf (cd)
 #   - { key: S, mods: Control, chars: "\ff -e\n" } # fd | fzf (nvim)
 #   - { key: G, mods: Control|Shift, chars: "\ff -g\n" } # fd | fzf (rg)
