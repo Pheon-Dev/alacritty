@@ -31,8 +31,8 @@ family = "Maple Mono"
 style = "Regular"
 
 [font.offset]
-x = 0
-y = -3
+x = -1
+y = -1
 
 [[keyboard.bindings]]
 action = "Paste"
