@@ -123,13 +123,6 @@ chars = "\f"
 key = "L"
 mods = "Control"
 
-[[keyboard.bindings]]
-chars = """
-\fkn
-"""
-key = "Semicolon"
-mods = "Control"
-
 [mouse]
 hide_when_typing = true
 
