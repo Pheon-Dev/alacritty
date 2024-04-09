@@ -7,16 +7,16 @@ draw_bold_text_with_bright_colors = true
 TERM = "xterm-256color"
 
 [font]
-size = 6.9
+size = 6.8
 # size = 10.5
 
 [font.bold]
 family = "Maple Mono"
-style = "Bold"
+style = "bold"
 
 [font.bold_italic]
 family = "Maple Mono"
-style = "Bold Italic"
+style = "bold italic"
 
 [font.glyph_offset]
 x = 0
@@ -24,7 +24,7 @@ y = 0
 
 [font.italic]
 family = "Maple Mono"
-style = "Italic"
+style = "italic"
 
 [font.normal]
 family = "Maple Mono"
